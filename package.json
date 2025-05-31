@@ -1,6 +1,6 @@
 {
   "name": "simple-search-app",
-  "homepage": "https://github.com/I-MTIAZ/Search-Wev",
+  "homepage": "https://I-MTIAZ.github.io/Search-Wev",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d dist"
+    "deploy":"gh-pages -d"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.5.0",
