@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.size{
+    height:500px;
+    width: 500px;
+    
+}
+
+.size img {
+    height: 100%;    /* Make the image fill the height */
+    width: 100%;     /* Make the image fill the width */
+    object-fit: cover; /* Scale the image to cover the container */
+}
